@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { persist, StateStorage } from "zustand/middleware";
+import { persist } from "zustand/middleware";
 
 type ThemeStore = {
   darkMode: boolean;
