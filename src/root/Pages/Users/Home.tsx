@@ -67,7 +67,8 @@ function Home() {
                   <p className="opacity-[50%]">City: {user.address.city}</p>
                   <p className="opacity-[50%]">Number: {user.address.number}</p>
                   <p className="opacity-[50%]">Street: {user.address.street}</p>
-                  <p className="opacity-[50%">Password: {user.password}</p>
+                  <p className="opacity-[50%]">Username: {user.username}</p>
+                  <p className="opacity-[50%]">Password: {user.password}</p>
                 </div>
               </div>
             );
